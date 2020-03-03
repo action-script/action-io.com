@@ -4,7 +4,7 @@
 
 ```bash
 #Arch
-pacman -S ruby
+$ pacman -S ruby
 
 #bundle
 $ gem install bundle
