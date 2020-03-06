@@ -1,13 +1,50 @@
+// center body on big screens
+body {
+    max-width: $side-bar-desktop + $content-width;
+    margin: 0 auto;
+}
+
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+    width: 100vw;
+    height: $header-height;
+    position: fixed;
+}
 
-  // Positioning context for the mobile navigation icon
-  position: relative;
+// Side-bar
+.side-bar {
+    height: 100vh;
+    position: fixed;
+    width: $side-bar-desktop;
+    top: $header-height;
+    background: $background-color;
+
+    @include media-query($on-desktop) {
+        @include transition( all $menu-animation-time);
+        @include transform( translate3d(-100%, 0, 0) );
+
+        &::before {
+            content: " ";
+            width: $on-desktop;
+            height: 100vh;
+            background: #ffffff8a;
+            position: fixed;
+            display: none;
+            top: 0;
+
+            .open-menu & {
+                right: -$on-desktop;
+                display: block;
+            }
+        }
+    }
+    .open-menu & {
+        visibility: visible;
+        @include transition( transform $menu-animation-time);
+        @include transform( translate3d(0%, 0, 0) );
+   }
 }
 
 .site-title {
@@ -24,83 +61,34 @@
   }
 }
 
-.site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
-
-  .nav-trigger {
-      display: none;
-  }
-
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
+.menu-button {
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
-    text-align: right;
+    float: right;
+    margin: 10px;
+    margin-right: 0;
+    display: none;
 
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
+    span {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
     }
 
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
+    svg {
         fill: $grey-color-dark;
-      }
     }
 
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
 
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
+    @include media-query($on-desktop) {
+        display: block;
     }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
-  }
 }
-
-
 
 /**
  * Site footer
@@ -176,8 +164,13 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
-  flex: 1;
+    padding: $header-height 0 $spacing-unit 0;
+    flex: 1;
+    padding-left: $side-bar-desktop;
+
+    @include media-query($on-desktop) {
+        padding-left: 0;
+    }
 }
 
 .page-heading {

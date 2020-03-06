@@ -1,0 +1,116 @@
+// media query
+//@include mediaquery($from: 410px, $until: tablet) {}
+@mixin mediaquery(
+	$from: false,
+	$until: false,
+	$breakpoints: $media-breakpoints
+) {
+	$min-width: 0;
+	$max-width: 0;
+	$media-query: '';
+
+	@if $from {
+		@if type-of($from) == number {
+			$min-width: $from;
+		} @else {
+			$min-width: map-get($breakpoints, $from);
+		}
+	}
+	@if $until {
+		@if type-of($until) == number {
+			$max-width: $until;
+		} @else {
+			$max-width: map-get($breakpoints, $until);
+		}
+	}
+
+	@if $min-width != 0 { $media-query: '#{$media-query} and (min-width: #{$min-width})'; }
+	@if $max-width != 0 { $media-query: '#{$media-query} and (max-width: #{$max-width})'; }
+
+	@media all #{$media-query} {
+		@content;
+	}
+}
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+@mixin scale($scale) {
+	 @include transform(scale($scale));
+}
+
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+@mixin transform-origin ($origin) {
+		moz-transform-origin: $origin;
+		 -o-transform-origin: $origin;
+	   -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+			 transform-origin: $origin;
+}
+
+@mixin no-select {
+	-webkit-touch-callout: none;
+  	  -webkit-user-select: none;
+  		-khtml-user-select: none;
+		  -moz-user-select: none;
+			-ms-user-select: none;
+  				 user-select: none;
+}
+
+@mixin background-size($background-size) {
+  -webkit-background-size: $background-size;
+     -moz-background-size: $background-size;
+       -o-background-size: $background-size;
+          background-size: $background-size;
+}
