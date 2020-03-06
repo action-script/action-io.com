@@ -8,9 +8,14 @@ body {
  * Site header
  */
 .site-header {
-    width: 100vw;
+    width: $side-bar-desktop;
     height: $header-height;
     position: fixed;
+    background: $background-color;
+
+    @include media-query($on-desktop) {
+        width: 100vw;
+    }
 }
 
 // Side-bar
@@ -20,6 +25,7 @@ body {
     width: $side-bar-desktop;
     top: $header-height;
     background: $background-color;
+    padding-top: $spacing-unit;
 
     @include media-query($on-desktop) {
         @include transition( all $menu-animation-time);
@@ -47,9 +53,41 @@ body {
    }
 }
 
+main, footer {
+    padding-left: 300px;
+
+    @include media-query($on-desktop) {
+        padding-left: 0;
+    }
+}
+
+.menu-items {
+    list-style-type: none;
+    margin-left: 10px;
+
+    a {
+        display: inline;
+        color: inherit;
+    }
+    &>li {
+        margin-bottom: 15px;
+    }
+    & li::before {
+        content: "~";
+        right: 10px;
+        position: relative;
+    }
+    ul {
+        list-style-type: none;
+        > li::before {
+            content: "/";
+        }
+    }
+}
+
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 800;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -70,7 +108,7 @@ body {
     margin-right: 0;
     display: none;
 
-    span {
+    .menu-icon {
         display: block;
         float: right;
         width: 36px;
@@ -80,8 +118,19 @@ body {
         text-align: center;
     }
 
-    svg {
+    #icon-burger {
         fill: $grey-color-dark;
+        .open-menu & {
+            display: none;
+        }
+    }
+
+    #icon-close {
+        stroke: $grey-color-dark;
+        display: none;
+        .open-menu & {
+            display: inline;
+        }
     }
 
 
@@ -95,7 +144,8 @@ body {
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
 
 .footer-heading {
@@ -164,13 +214,8 @@ body {
  * Page content
  */
 .page-content {
-    padding: $header-height 0 $spacing-unit 0;
+    padding-top: $header-height+$spacing-unit;
     flex: 1;
-    padding-left: $side-bar-desktop;
-
-    @include media-query($on-desktop) {
-        padding-left: 0;
-    }
 }
 
 .page-heading {
