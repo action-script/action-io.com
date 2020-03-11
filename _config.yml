@@ -25,6 +25,13 @@ baseurl: "/action-io.com" # the subpath of your site, e.g. /blog
 url: "https://action-io.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  action-script
 
+excerpt_separator: <!--more-->
+
+collections:
+    works:
+        output: true
+
+
 # Build settings
 plugins:
 

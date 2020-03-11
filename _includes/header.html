@@ -1,8 +1,6 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     <div class="menu-button">
@@ -24,23 +22,14 @@
       <ul class="menu-items">
           <li><a class="page-link" href="{{ "/works" | relative_url }}">works</a></li>
           <ul>
-              <li><a class="page-link" href="{{ "/works" | relative_url }}">element 1</a></li>
-              <li><a class="page-link" href="{{ "/works" | relative_url }}">element 1</a></li>
-              <li><a class="page-link" href="{{ "/works" | relative_url }}">element 1</a></li>
-              <li><a class="page-link" href="{{ "/works" | relative_url }}">element 1</a></li>
+              <li><a class="page-link" href="{{ "/works#computer-graphics" | relative_url }}">computer graphics</a></li>
+              <li><a class="page-link" href="{{ "/works#creative-code" | relative_url }}">creative code</a></li>
+              <li><a class="page-link" href="{{ "/works#hardware" | relative_url }}">hardware</a></li>
+              <li><a class="page-link" href="{{ "/works#installations" | relative_url }}">installations</a></li>
+              <li><a class="page-link" href="{{ "/works#curatorial" | relative_url }}">curatorial</a></li>
           </ul>
-          <li>r+d</li>
-          <li>bio</li>
-        <!--
-        {%- if page_paths -%}
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-         -->
+          <li><a class="page-link" href="{{ "/articles" | relative_url }}">r+d</a></li>
+          <li><a class="page-link" href="{{ "/about" | relative_url }}">bio</a></li>
       </ul>
   </div>
 
