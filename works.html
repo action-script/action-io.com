@@ -1,0 +1,15 @@
+---
+title: works
+permalink: /works/
+layout: default
+---
+
+<p>posts here:</p>
+site: {{site.site.documents}}
+<div class="gallery-grid">
+    {% for post in site.works reversed %}
+    <a class="grid-element" href="{{ post.url | relative_url }}">
+        {{ post.title | scape }}
+    </a>
+    {%- endfor -%}
+</div>

@@ -1,0 +1,10 @@
+.gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    grid-auto-rows: 27vw;
+}
+
+.grid-element {
+    background: blue;
+}
