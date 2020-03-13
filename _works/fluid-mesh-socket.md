@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "fluid mesh socket"
 date: 2016-01-22 14:58:42 GMT
 tags: [webgl,javascript,html5,code,3d,interactive,nodejs,websocket,shaders,glsl,mobile devices,computer graphics]

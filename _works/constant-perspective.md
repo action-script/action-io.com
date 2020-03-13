@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "constant-perspective"
+layout: work
+title:  "Generative background | CP01"
 date: 2016-07-03 19:36:36 GMT
 tags: [processing,ortho,line,creative code,geometic,low poly]
 author: "Nuño de la Serna"

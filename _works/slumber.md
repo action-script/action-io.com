@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "slumber"
 date: 2018-05-30 14:13:46 GMT
 tags: [webgl,shaders,glsl,renderbuffer,glow,twighlight,forest,render,realtime,dark,limbo,computer graphics]

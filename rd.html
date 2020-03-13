@@ -1,0 +1,16 @@
+---
+title: r+d
+permalink: /articles.html
+layout: default
+---
+
+{%- if site.posts.size > 0 -%}
+<div class="gallery-grid">
+    {%- for post in site.posts -%}
+    <a class="grid-element" href="{{ post.url | relative_url }}">
+        {{ post.title | scape }}
+        {{ post.excerpt }}
+    </a>
+    {%- endfor -%}
+</div>
+{%- endif -%}

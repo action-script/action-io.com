@@ -12,6 +12,7 @@ body {
     height: $header-height;
     position: fixed;
     background: $background-color;
+    z-index: 10;
 
     @include media-query($on-desktop) {
         width: 100vw;
@@ -26,6 +27,7 @@ body {
     top: $header-height;
     background: $background-color;
     padding-top: $spacing-unit;
+    z-index: 9;
 
     @include media-query($on-desktop) {
         @include transition( all $menu-animation-time);

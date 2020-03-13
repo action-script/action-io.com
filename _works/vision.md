@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "20180508-berlin-vision-cablesgl-click-for"
+layout: work
+title:  "vision"
 date: 2018-05-08 21:35:25 GMT
 tags: [webgl,cables,creative code,javascript]
 author: "Nuño de la Serna"

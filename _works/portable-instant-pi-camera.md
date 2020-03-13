@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "portable-instant-pi-camera"
 date: 2019-01-28 15:21:48 GMT
 tags: [raspbian,raspberry pi,photography,polaroid,instant,black and white,3d printing,retro design,arduino and machines]

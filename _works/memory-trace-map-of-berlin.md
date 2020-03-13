@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "memory-trace-map-of-berlin"
 date: 2016-12-25 12:36:48 GMT
 tags: [processing,plotter,makeblock,SVG,vector graphics,colors,edge,pilot,draw,Berlin,creative code]

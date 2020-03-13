@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "webgl-realtime-independent-channel-mixer"
 date: 2016-02-18 15:10:11 GMT
 tags: [webgl,real time,video filter,video effects,javascript,html5,glsl,computer graphics]

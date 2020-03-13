@@ -1,14 +1,13 @@
 ---
-layout: post
-title:  "blender-generative-art-python"
+layout: work
+title:  "generative art on blender python"
 date: 2019-09-05 17:23:11 GMT
-tags: [creative code,blender,blender 2.8,python,denoise,abstract,scatering,generative,eevee]
+tags: [creative code,blender,blender 2.8,python,denoise,abstract,darktable,scatering,generative,eevee,organic]
 author: "Nuño de la Serna"
 place: Berlin
+thumbnail: ./assets/media/img/187537855588_1.jpg
 ---
 
-<p>2019.09.05 berlin<br/>-generative art-<br/></p><p>[Python + blender 2.8 + Intel® Open Image Denoise]</p>
+![My pic](./assets/media/img/187514489738_0.jpg){:class="img-col-9"}![187514489738_1](./assets/media/img/187514489738_1.jpg){:class="img-col-3"}![187537855588_0](./assets/media/img/187537855588_0.jpg){:class="img-col-12 img-clear"}![187537855588_1](./assets/media/img/187537855588_1.jpg){:class="img-col-6 img-clear"}![187537855588_2](./assets/media/img/187537855588_2.png){:class="img-col-6"}
 
-tags: [creative code,blender 2.8,python,denoise,Darktable,generative design,cycles,organic]
-
-<p>2019.09.06 berlin<br/>-generative art-</p><p>[Python + blender 2.8 + Intel® Open Image Denoise]</p>
+[Python + blender 2.8 + Intel® Open Image Denoise]

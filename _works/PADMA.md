@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "padma"
 date: 2016-06-04 21:48:56 GMT
 tags: [arduino,arduino and machines,homade,craft,LED,rgbw,lamp,tensegrity,pro trinket,accelerometer,adafruit]

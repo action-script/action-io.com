@@ -4,12 +4,14 @@ permalink: /works/
 layout: default
 ---
 
-<p>posts here:</p>
-site: {{site.site.documents}}
 <div class="gallery-grid">
     {% for post in site.works reversed %}
-    <a class="grid-element" href="{{ post.url | relative_url }}">
-        {{ post.title | scape }}
+    <a class="grid-element" href="{{ post.url | relative_url }}" style="background-image: url({{post.thumbnail}})">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <div class="post-thumb-data">
+            <span>{{ post.title | scape }}</span>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+        </div>
     </a>
     {%- endfor -%}
 </div>

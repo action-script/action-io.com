@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "berlin-resensemov-metabody-forum"
+layout: work
+title:  "Resensemov metabody forum"
 date: 2016-08-12 18:16:42 GMT
 tags: [none]
 author: "Nuño de la Serna"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "generative-motion-graphics"
 date: 2018-05-16 19:02:53 GMT
 tags: [cables.gl,webgl,ssao,motion graphics,glow,Chromatic aberration,vj,creative code,audiovisual]
