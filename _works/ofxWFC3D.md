@@ -8,7 +8,15 @@ place: Berlin
 thumbnail: ./assets/media/img/wfc_scafolderI_1.png
 ---
 
-![My pic](./assets/media/img/wfc_scafolderI_1.png){:class="img-col-6"} ![My pic](./assets/media/img/wfc_scafolderI_2.png){:class="img-col-6"}
+<video autoplay controls loop="loop">
+   <source src="./assets/media/video/188723813746.mp4" type="video/mp4" />
+</video>
+
+![My pic](./assets/media/img/wfc_scafolderI_1.png){:class="img-col-6"}![My pic](./assets/media/img/wfc_scafolderI_2.png){:class="img-col-6"}
+
+<video controls loop="loop">
+   <source src="./assets/media/video/wfc_02.mp4" type="video/mp4" />
+</video>
 
 Realtime Generative structures using Wave Function Collapse. I created ofxWFC3D, an [openframeworks](https://openframeworks.cc/) addon implementing a 3D version of the WFC algorithm by Maxim Gumin including extra features and functionalities.
 

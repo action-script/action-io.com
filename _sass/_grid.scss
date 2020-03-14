@@ -4,7 +4,10 @@
     grid-gap: 60px 10px;
     grid-auto-rows: calc( ((100vw) - #{$spacing-unit*2} - #{$side-bar-desktop} ) / 3);;
     padding-bottom: 70px;
-    //background: red;
+
+    @media only screen and (min-width: ($content-width + $side-bar-desktop)) {
+        grid-auto-rows: (($content-width - $spacing-unit*2)/3);
+    }
 
     @include media-query($on-desktop) {
         grid-auto-rows: calc( ((100vw) - #{$spacing-unit*2} ) / 3);;

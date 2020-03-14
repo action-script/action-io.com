@@ -5,7 +5,15 @@ date: 2018-05-30 14:13:46 GMT
 tags: [webgl,shaders,glsl,renderbuffer,glow,twighlight,forest,render,realtime,dark,limbo,computer graphics]
 author: "Nuño de la Serna"
 place: Berlin
+thumbnail: ./assets/media/img/174403198528_0.png
 ---
 
-<p>May 2018 - berlin<br/><b>Slumber</b><br/></p><p>[cables.gl]<br/></p>
+<div class="video-responsive">
+<iframe frameborder="0" src="https://cables.gl/view/5b05168d6fe3f55f72f05c4a"></iframe>
+</div>
+
+
+realtime generative scene combining multiple [render buffers](https://www.khronos.org/opengl/wiki/Renderbuffer_Object) sharing the same [depth_buffer](https://www.khronos.org/opengl/wiki/Depth_Test#Depth_buffer).
+
+[cables.gl]
 
