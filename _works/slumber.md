@@ -9,9 +9,10 @@ thumbnail: ./assets/media/img/174403198528_0.png
 ---
 
 <div class="video-responsive">
-<iframe frameborder="0" src="https://cables.gl/view/5b05168d6fe3f55f72f05c4a"></iframe>
+<iframe frameborder="0" src="./assets/slumberjs/index.html"></iframe>
 </div>
 
+----
 
 realtime generative scene combining multiple [render buffers](https://www.khronos.org/opengl/wiki/Renderbuffer_Object) sharing the same [depth_buffer](https://www.khronos.org/opengl/wiki/Depth_Test#Depth_buffer).
 
