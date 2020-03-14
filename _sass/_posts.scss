@@ -11,6 +11,30 @@ article {
             margin-left: 0;
         }
 
+        &.modal {
+            position: fixed;
+            margin: 0;
+            top: 50vh;
+            left: 50vw;
+            z-index: 20;
+            max-width: $on-palm;
+            width: 96vw;
+            height: auto;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+    &.modal::after {
+        content: "";
+        background: #ffffffc2;
+        position: fixed;
+        z-index: 19;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 101vh;
+        display: block;
     }
 
     .img-clear {
