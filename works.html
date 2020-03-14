@@ -6,8 +6,12 @@ layout: default
 
 <div class="gallery-grid">
     {% for post in site.works reversed %}
+    {%- if post.redirect -%}
+    <a class="grid-element" href="{{ post.redirect }}" target="_blank" style="background-image: url({{post.thumbnail}})">
+    {%- else -%}
     <a class="grid-element" href="{{ post.url | relative_url }}" style="background-image: url({{post.thumbnail}})">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- endif -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
         <div class="post-thumb-data">
             <span>{{ post.title | scape }}</span>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
