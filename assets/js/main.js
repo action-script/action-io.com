@@ -11,15 +11,16 @@ el_menuButton.addEventListener('click', (e) => {
 // modal post images
 const el_article = document.getElementsByTagName('article')[0];
 
-el_article.addEventListener('click', (e) => {
-    if (e.srcElement.tagName == 'IMG') {
-        e.srcElement.classList.toggle('modal');
-        el_article.classList.toggle('modal');
-    }
-    else if (e.srcElement.tagName == 'ARTICLE') {
-        var modals = [...document.getElementsByClassName('modal')];
-        for(var el of modals)
-            el.classList.remove('modal');
-    }
-});
-
+if(el_article) {
+    el_article.addEventListener('click', (e) => {
+        if (e.srcElement.tagName == 'IMG') {
+            e.srcElement.classList.toggle('modal');
+            el_article.classList.toggle('modal');
+        }
+        else if (e.srcElement.tagName == 'ARTICLE') {
+            var modals = [...document.getElementsByClassName('modal')];
+            for(var el of modals)
+                el.classList.remove('modal');
+        }
+    });
+}
