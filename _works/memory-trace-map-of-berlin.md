@@ -5,6 +5,7 @@ date: 2016-12-25 12:36:48 GMT
 tags: [processing,plotter,makeblock,SVG,vector graphics,colors,edge,pilot,draw,Berlin,creative code]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [creative-code, hardware]
 thumbnail: ./assets/media/img/154933220678_9.jpg
 ---
 

@@ -3,6 +3,7 @@ layout: work
 title:  "ofxWFC3D"
 date: 2019-10-31 16:01:54 GMT
 tags: [openframeworks,realtime,computer graphics,wavefunctioncollapse,generative design,generativeart,creative code,architecture]
+categories: [computer-graphics]
 author: "Nuño de la Serna"
 place: Berlin
 thumbnail: ./assets/media/img/wfc_scafolderI_1.png

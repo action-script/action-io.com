@@ -5,6 +5,7 @@ date: 2016-07-03 19:36:36 GMT
 tags: [processing,ortho,line,creative code,geometic,low poly]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [creative-code]
 thumbnail: ./assets/media/img/146859489428_5.png
 ---
 

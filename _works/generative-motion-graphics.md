@@ -5,6 +5,7 @@ date: 2018-05-16 19:02:53 GMT
 tags: [cables.gl,webgl,ssao,motion graphics,glow,Chromatic aberration,vj,creative code,audiovisual]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [creative-code]
 thumbnail: ./assets/media/img/173964801978_5.png
 ---
 <div class="video-responsive">

@@ -5,6 +5,7 @@ date: 2016-04-13 14:42:11 GMT
 tags: [javascript,ECMAScript 6,babeljs,webgl,graphic engine,render,3D,real time,html5,low poly,shaders,glsl,computer graphics]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [computer-graphics]
 thumbnail: ./assets/media/img/142740307673_2.jpg
 ---
 

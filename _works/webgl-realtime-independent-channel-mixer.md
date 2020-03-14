@@ -5,6 +5,7 @@ date: 2016-02-18 15:10:11 GMT
 tags: [webgl,real time,video filter,video effects,javascript,html5,glsl,computer graphics]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [computer-graphics]
 thumbnail: ./assets/media/img/139544455105_2.png
 ---
 

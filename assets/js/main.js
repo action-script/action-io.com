@@ -24,3 +24,14 @@ if(el_article) {
         }
     });
 }
+
+// gallery filter
+if(window.location.hash) {
+    const hash = window.location.hash.substring(1);
+    var style = document.createElement('style');
+    var styleString = `.gallery-grid .filter:not(.${hash}) {
+    display: none;
+}`;
+    style.textContent = styleString;
+    document.head.append(style);
+}

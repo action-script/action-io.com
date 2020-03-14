@@ -5,6 +5,7 @@ date: 2016-08-12 18:16:42 GMT
 tags: [none]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [curatorial]
 thumbnail: ./assets/media/img/148845191003_1.png
 ---
 

@@ -5,6 +5,7 @@ redirect: https://niviili.com/
 date: 2019-06-01 00:00:00 GMT
 tags: [curatorial]
 place: Berlin
+categories: curatorial
 thumbnail: ./assets/media/img/nvl_thumbnail.jpg
 ---
 

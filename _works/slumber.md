@@ -5,6 +5,7 @@ date: 2018-05-30 14:13:46 GMT
 tags: [webgl,shaders,glsl,renderbuffer,glow,twighlight,forest,render,realtime,dark,limbo,computer graphics]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [computer-graphics, creative-code]
 thumbnail: ./assets/media/img/174403198528_0.png
 ---
 

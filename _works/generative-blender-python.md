@@ -5,6 +5,7 @@ date: 2019-09-05 17:23:11 GMT
 tags: [creative code,blender,blender 2.8,python,denoise,abstract,darktable,scatering,generative,eevee,organic]
 author: "Nuño de la Serna"
 place: Berlin
+categories: [creative-code]
 thumbnail: ./assets/media/img/187537855588_1.jpg
 ---
 
