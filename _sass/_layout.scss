@@ -98,15 +98,13 @@ main, footer {
   float: left;
   position: relative;
 
-  &::after {
-    content: "";
-    background-color: $grey-color-dark;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
+  svg {
     position: absolute;
-    top: 22px;
-    right: -3px;
+    bottom: 18px;
+    right: -6px;
+    fill: $grey-color-dark;
+    background-color: $background-color ;
+    padding: 10px 1px 0 1px;
   }
 
   &,
