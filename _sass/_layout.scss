@@ -75,14 +75,16 @@ main, footer {
         margin-bottom: 15px;
     }
     & li::before {
-        content: "~";
+        content: "/";
         right: 10px;
         position: relative;
     }
     ul {
         list-style-type: none;
         > li::before {
-            content: "/";
+            content: "#";
+            //content: "~";
+            font-size: 0.8em;
         }
     }
 }
@@ -94,6 +96,18 @@ main, footer {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  position: relative;
+
+  &::after {
+    content: "";
+    background-color: $grey-color-dark;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 22px;
+    right: -3px;
+  }
 
   &,
   &:visited {
