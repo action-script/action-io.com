@@ -6,7 +6,7 @@ tags: [javascript,ECMAScript 6,babeljs,webgl,graphic engine,render,3D,real time,
 author: "Nuño de la Serna"
 place: Berlin
 categories: [computer-graphics]
-thumbnail: ./assets/media/img/142740307673_2.jpg
+thumbnail: ./assets/media/thumbnails/142740307673_2.jpg
 ---
 
 ![142740307673_0](./assets/media/img/142740307673_0.jpg){:class="img-col-5"}![142740307673_1](./assets/media/img/142740307673_1.jpg){:class="img-col-5"}![142740307673_2](./assets/media/img/142740307673_2.jpg){:class="img-col-2"}![145871670343_0](./assets/media/img/145871670343_0.png){:class="img-col-12"}![145871670343_1](./assets/media/img/145871670343_1.png){:class="img-col-12"}![145871670343_2](./assets/media/img/145871670343_2.png){:class="img-col-6 img-clear"}

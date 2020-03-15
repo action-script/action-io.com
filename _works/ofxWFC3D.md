@@ -6,7 +6,7 @@ tags: [openframeworks,realtime,computer graphics,wavefunctioncollapse,generative
 categories: [computer-graphics]
 author: "Nuño de la Serna"
 place: Berlin
-thumbnail: ./assets/media/img/wfc_scafolderI_1.png
+thumbnail: ./assets/media/thumbnails/wfc_scafolderI_1.jpg
 ---
 
 <video autoplay controls loop="loop">

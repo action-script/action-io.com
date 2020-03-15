@@ -6,7 +6,7 @@ tags: [raspbian,raspberry pi,photography,polaroid,instant,black and white,3d pri
 author: "Nuño de la Serna"
 place: Berlin
 categories: [hardware]
-thumbnail: ./assets/media/img/182373117063_0.png
+thumbnail: ./assets/media/thumbnails/182373117063_0.jpg
 ---
 ![182373117063_0](./assets/media/img/182373117063_0.png){:class="img-col-12"}![182373117063_1](./assets/media/img/182373117063_1.png){:class="img-col-12"}![182373117063_2](./assets/media/img/182373117063_2.png){:class="img-col-6 img-clear"}![182373117063_3](./assets/media/img/182373117063_3.png){:class="img-col-6"}
 

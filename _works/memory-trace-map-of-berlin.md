@@ -6,7 +6,7 @@ tags: [processing,plotter,makeblock,SVG,vector graphics,colors,edge,pilot,draw,B
 author: "Nuño de la Serna"
 place: Berlin
 categories: [creative-code, hardware]
-thumbnail: ./assets/media/img/154933220678_9.jpg
+thumbnail: ./assets/media/thumbnails/154933220678_9.jpg
 ---
 
 ![154933220678_0](./assets/media/img/154933220678_0.jpg){:class="img-col-12"}![154933220678_1](./assets/media/img/154933220678_1.jpg){:class="img-col-6 img-clear"}![154933220678_2](./assets/media/img/154933220678_2.jpg){:class="img-col-6"}![154933220678_3](./assets/media/img/154933220678_3.jpg){:class="img-col-12"}![154933220678_4](./assets/media/img/154933220678_4.gif){:class="img-col-4 img-clear"}![154933220678_5](./assets/media/img/154933220678_5.gif){:class="img-col-4"}![154933220678_6](./assets/media/img/154933220678_6.gif){:class="img-col-4"}![154933220678_7](./assets/media/img/154933220678_7.jpg){:class="img-col-6 img-clear"}![154933220678_8](./assets/media/img/154933220678_8.jpg){:class="img-col-6"}![154933220678_9](./assets/media/img/154933220678_9.jpg){:class="img-col-12"}

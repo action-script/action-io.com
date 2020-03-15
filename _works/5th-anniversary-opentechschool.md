@@ -6,7 +6,7 @@ tags: [creative code,cables.gl,webgl,realtime,interactive,smarthphone,accelerome
 author: "Nuño de la Serna"
 place: Berlin
 categories: [creative-code, installations]
-thumbnail: ./assets/media/img/OST2018_thumbnail.png 
+thumbnail: ./assets/media/thumbnails/OST2018_thumbnail.jpg
 ---
 
 <video autoplay controls loop="loop">

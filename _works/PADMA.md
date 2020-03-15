@@ -6,7 +6,7 @@ tags: [arduino,arduino and machines,homade,craft,LED,rgbw,lamp,tensegrity,pro tr
 author: "Nuño de la Serna"
 place: Berlin
 categories: [hardware]
-thumbnail: ./assets/media/img/145421654593_0.jpg
+thumbnail: ./assets/media/thumbnails/145421654593_0.jpg
 ---
 
 ![145421654593_0](./assets/media/img/145421654593_0.jpg){:class="img-col-12"}![145421654593_1](./assets/media/img/145421654593_1.jpg){:class="img-col-6 img-clear"}![145421654593_2](./assets/media/img/145421654593_2.jpg){:class="img-col-6"}![145421654593_3](./assets/media/img/145421654593_3.jpg){:class="img-col-4 img-clear"}![145421654593_4](./assets/media/img/145421654593_4.jpg){:class="img-col-4"}![145421654593_5](./assets/media/img/145421654593_5.jpg){:class="img-col-4"}

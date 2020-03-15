@@ -6,7 +6,7 @@ tags: [cables.gl,webgl,ssao,motion graphics,glow,Chromatic aberration,vj,creativ
 author: "Nuño de la Serna"
 place: Berlin
 categories: [creative-code]
-thumbnail: ./assets/media/img/173964801978_5.png
+thumbnail: ./assets/media/thumbnails/173964801978_5.jpg
 ---
 <div class="video-responsive">
 <iframe frameborder="0" src="https://cables.gl/view/5afbd7a75816ec675f8519b7"></iframe>

@@ -6,7 +6,7 @@ tags: [creative code,blender,blender 2.8,python,denoise,abstract,darktable,scate
 author: "Nuño de la Serna"
 place: Berlin
 categories: [creative-code]
-thumbnail: ./assets/media/img/187537855588_1.jpg
+thumbnail: ./assets/media/thumbnails/187537855588_1.jpg
 ---
 
 ![My pic](./assets/media/img/187514489738_0.jpg){:class="img-col-9"}![187514489738_1](./assets/media/img/187514489738_1.jpg){:class="img-col-3"}![187537855588_0](./assets/media/img/187537855588_0.jpg){:class="img-col-12 img-clear"}![187537855588_1](./assets/media/img/187537855588_1.jpg){:class="img-col-6 img-clear"}![187537855588_2](./assets/media/img/187537855588_2.png){:class="img-col-6"}

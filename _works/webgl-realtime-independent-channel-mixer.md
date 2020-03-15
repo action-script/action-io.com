@@ -6,7 +6,7 @@ tags: [webgl,real time,video filter,video effects,javascript,html5,glsl,computer
 author: "Nuño de la Serna"
 place: Berlin
 categories: [computer-graphics]
-thumbnail: ./assets/media/img/139544455105_2.png
+thumbnail: ./assets/media/thumbnails/139544455105_2.jpg
 ---
 
 <video autoplay controls loop="loop">

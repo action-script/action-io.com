@@ -6,7 +6,7 @@ tags: [processing,ortho,line,creative code,geometic,low poly]
 author: "Nuño de la Serna"
 place: Berlin
 categories: [creative-code]
-thumbnail: ./assets/media/img/146859489428_5.png
+thumbnail: ./assets/media/thumbnails/146859489428_5.jpg
 ---
 
 ![147285393203_2](./assets/media/img/147285393203_2.png){:class="img-col-6"}![147285393203_0](./assets/media/img/147285393203_0.jpg){:class="img-col-6"}![147285393203_1](./assets/media/img/147285393203_1.jpg){:class="img-col-12 img-clear"}

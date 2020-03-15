@@ -6,7 +6,7 @@ tags: [webgl,shaders,glsl,renderbuffer,glow,twighlight,forest,render,realtime,da
 author: "Nuño de la Serna"
 place: Berlin
 categories: [computer-graphics, creative-code]
-thumbnail: ./assets/media/img/174403198528_0.png
+thumbnail: ./assets/media/thumbnails/174403198528_0.jpg
 ---
 
 <div class="video-responsive">

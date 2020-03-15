@@ -6,7 +6,7 @@ tags: [creative code,arduino and machines,Forest,festival,light installation,sou
 author: "Nuño de la Serna"
 place: Berlin
 categories: [installations]
-thumbnail: ./assets/media/img/wilde-mohre-festival_thumbnail.jpg
+thumbnail: ./assets/media/thumbnails/wilde-mohre-festival_thumbnail.jpg
 ---
 
 <div class="video-responsive">
