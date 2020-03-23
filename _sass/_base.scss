@@ -235,6 +235,7 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+  table-layout:fixed;
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
@@ -242,6 +243,12 @@ table {
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    @include media-query($on-palm) {
+        padding: ($spacing-unit / 5) ($spacing-unit / 5);
+    }
   }
   th {
     background-color: lighten($grey-color-light, 3%);
@@ -250,5 +257,8 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+  }
+  thead th {
+    text-align: center;
   }
 }

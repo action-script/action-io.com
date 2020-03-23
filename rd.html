@@ -6,10 +6,13 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
 <div class="gallery-grid">
-    {%- for post in site.posts -%}
-    <a class="grid-element" href="{{ post.url | relative_url }}">
-        {{ post.title | scape }}
-        {{ post.excerpt }}
+    {%- for post in site.posts reversed -%}
+    <a class="grid-element" href="{{ post.url | relative_url }}" style="background-image: url({{page.base_url}}{{post.thumbnail}})">
+        {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
+        <div class="post-thumb-data">
+            <span>{{ post.title | scape }}</span>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+        </div>
     </a>
     {%- endfor -%}
 </div>
