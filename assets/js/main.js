@@ -13,15 +13,23 @@ const el_article = document.getElementsByTagName('article')[0];
 
 if(el_article) {
     el_article.addEventListener('click', (e) => {
-        if (e.srcElement.tagName == 'IMG') {
-            e.srcElement.classList.toggle('modal');
+
+        if (e.srcElement.tagName == 'IMG' && !e.srcElement.classList.contains('modal') ) {
+            img_copy = e.srcElement.cloneNode(true);
+            img_copy.classList.add('modal');
+            el_article.insertBefore(img_copy, el_article.childNodes[0]);
+
             el_article.classList.toggle('modal');
         }
-        else if (e.srcElement.tagName == 'ARTICLE') {
+        else if (e.srcElement.tagName == 'ARTICLE' || e.srcElement.parentElement.tagName == 'ARTICLE') {
+            var img_modal = el_article.querySelectorAll('img.modal');
+            if (img_modal)
+                img_modal[0].remove();
             var modals = [...document.getElementsByClassName('modal')];
             for(var el of modals)
                 el.classList.remove('modal');
         }
+
     });
 }
 
