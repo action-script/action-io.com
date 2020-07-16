@@ -24,6 +24,6 @@ Realtime Generative structures using Wave Function Collapse. I created ofxWFC3D,
 Wave Function Collapse implementation for #openframeworks.
 ofxWFC3D is a 3D version of the WFC algorithm by [Maxim Gumin](https://twitter.com/ExUtumno), wrapped on an addon and ready to be used.
 
-Open source at [ofxWFC3D](https://openframeworks.cc/) on github.
+Open source at [ofxWFC3D](https://github.com/action-script/ofxWFC3D) on github.
 
 [openFrameworks + Wave Function Collapse]
