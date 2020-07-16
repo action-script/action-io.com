@@ -16,7 +16,7 @@ thumbnail: ./assets/media/thumbnails/portrait_thumbnail.jpg
 ![portrait_2020_4](./assets/media/img/portrait_2020_4.jpg){:class="img-col-6"}![portrait_2020_5](./assets/media/img/portrait_2020_5.jpg){:class="img-col-6"}
 
 <video autoplay controls loop="loop">
-   <source src="./assets/media/video/portrait_2020_optimized.mp4" type="video/mp4" />
+   <source src="./assets/media/video/portrait_2020_web.webm" type="video/webm" />
 </video>
 
 
