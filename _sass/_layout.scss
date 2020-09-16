@@ -57,6 +57,9 @@ body {
 
 main, footer {
     padding-left: 300px;
+    &.clear {
+        padding: 0;
+    }
 
     @include media-query($on-desktop) {
         padding-left: 0;
@@ -305,4 +308,8 @@ main, footer {
       @include relative-font-size(1.125);
     }
   }
+}
+
+.center {
+    text-align: center;
 }

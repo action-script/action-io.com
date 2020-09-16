@@ -27,6 +27,7 @@ url: "https://action-io.com/" # the base hostname & protocol for your site, e.g.
 github_username:  action-script
 instagram_username: action.io
 linkedin_username: ndelaserna
+twitter_username: Action_Script
 
 excerpt_separator: <!--more-->
 

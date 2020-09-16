@@ -4,7 +4,7 @@ title: bio
 permalink: /about
 ---
 
-![Portrait photography of Nuño de la Serna][bio-pic]{:class="img-responsive"}
+![Portrait photography of Nuño de la Serna][bio-pic]{:class="img-col-9"}
 
 
 Nuño de la Serna Vicente is a Spanish Berlin-based media artist.
