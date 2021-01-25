@@ -7,6 +7,8 @@ layout: clear
 
 
 
+[Current Exhibition - snapshot @ Transmediale Vorspiel 2021](https://action-io.com/works/snapshot.html){:class="weblink"}
+
 [Berlin Under the Urban Skin](https://action-io.com/works/under-the-urban-skin){:class="weblink"}
 
 [action-io Website](/){:class="weblink"}

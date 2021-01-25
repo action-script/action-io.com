@@ -313,3 +313,23 @@ main, footer {
 .center {
     text-align: center;
 }
+
+.headBanner {
+    display: flex;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.vorspiell2021 {
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    background-image: url('/assets/media/img/header.png');
+    background-size: cover;
+    background-position: center;
+
+    &:hover {
+    
+    }
+}
