@@ -7,9 +7,9 @@ layout: clear
 
 
 
-[Berlin Under the Urban Skin](https://action-io.com/works/under-the-urban-skin){:class="weblink"}
+[Current Exhibition - snapshot @ Transmediale Vorspiel 2021](https://action-io.com/works/snapshot.html){:class="weblink"}
 
-[Current Exhibition @ Eight Rooms gallery](https://www.facebook.com/events/eight-rooms-gallery/opening-eight-rooms-n5/609420169734187){:class="weblink"}
+[Berlin Under the Urban Skin](https://action-io.com/works/under-the-urban-skin){:class="weblink"}
 
 [action-io Website](/){:class="weblink"}
 

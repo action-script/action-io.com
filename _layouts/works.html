@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{{ content }}
 <div class="gallery-grid">
     {% for post in site.works reversed %}
     {%- assign post_url = post.redirect | default: post.url -%}
