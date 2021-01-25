@@ -18,7 +18,7 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 
 
 
-*Each video will be released on the occasion of each artist's act at the vorspiel.*
+*The 8 video interviews will be released along the period of the festival prior to each artist's act.*
 
 ---
 
