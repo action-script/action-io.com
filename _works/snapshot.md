@@ -26,7 +26,7 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 
 ### Interview with Paul Wiersbinski | 25.01.2021
 
-<div class="video-responsivei margin-bottom-big">
+<div class="video-responsive margin-bottom-big">
 <iframe src="https://player.vimeo.com/video/503851681" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
