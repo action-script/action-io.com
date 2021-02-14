@@ -9,7 +9,7 @@ categories: [curatorial]
 thumbnail: ./assets/media/thumbnails/snapshot-poster.jpg
 ---
 
-![snapshot poster][snapshot-poster]{:class="img-col-12"}
+![snapshot poster][snapshot-cover]{:class="img-col-12"}
 
 
 In the midst of the global pandemic caused by covid-19, Transmediale celebrates the Vorspiel 2021, and due to the lockdown conditions, Lacuna Lab proposes an entirely digital program.
@@ -50,7 +50,7 @@ snapshot is part of Lacuna Lab's digital Vorspiel [2021] series: [Transmediale V
 ![snapshot poster][snapshot-poster]{:class="img-col-6"}![snapshot poster][snapshot-poster2]{:class="img-col-6"}
 
 
-
+[snapshot-cover]: {{ "./assets/media/img/snapshot-poster_cover.png"}} "Transmediale Vorspiel 2021 - Nuño de la Serna"
 [snapshot-poster]: {{ "./assets/media/img/snapshot-poster.png"}} "Transmediale Vorspiel 2021 - Nuño de la Serna"
 [snapshot-poster2]: {{ "./assets/media/img/snapshot-poster_2.png"}} "Transmediale Vorspiel 2021 - Nuño de la Serna"
 
