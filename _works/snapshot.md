@@ -24,10 +24,10 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 
 
 
-### Interview with Paul Wiersbinski | 25.01.2021
+### Interview Sarah Hermanutz | 14.02.2021
 
 <div class="video-responsive margin-bottom-big">
-<iframe src="https://player.vimeo.com/video/503851681" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/511728714" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Interview with Fara Peluso | 29.01.2021
@@ -36,10 +36,10 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 <iframe src="https://player.vimeo.com/video/503877025" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Interview Sarah Hermanutz | 14.02.2021
+### Interview with Paul Wiersbinski | 25.01.2021
 
 <div class="video-responsive margin-bottom-big">
-<iframe src="https://player.vimeo.com/video/511728714" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/503851681" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ----
@@ -47,8 +47,10 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 snapshot is part of Lacuna Lab's digital Vorspiel [2021] series: [Transmediale Vorspiel 2021 &#124; Scattered Partners](https://lacunalab.org/events/transmediale-vorspiel-2021-or-scattered-partners)
 
 
+![snapshot poster][snapshot-poster]{:class="img-col-6"}![snapshot poster][snapshot-poster2]{:class="img-col-6"}
 
 
 
 [snapshot-poster]: {{ "./assets/media/img/snapshot-poster.png"}} "Transmediale Vorspiel 2021 - Nuño de la Serna"
+[snapshot-poster2]: {{ "./assets/media/img/snapshot-poster_2.png"}} "Transmediale Vorspiel 2021 - Nuño de la Serna"
 
