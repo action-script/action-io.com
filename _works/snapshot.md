@@ -23,20 +23,25 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 ---
 
 
+### Nayeli Vega | 20.02.2021
 
-### Interview Sarah Hermanutz | 14.02.2021
+<div class="video-responsive margin-bottom-big">
+<iframe src="https://player.vimeo.com/video/513415013" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Sarah Hermanutz | 14.02.2021
 
 <div class="video-responsive margin-bottom-big">
 <iframe src="https://player.vimeo.com/video/511728714" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Interview with Fara Peluso | 29.01.2021
+### Fara Peluso | 29.01.2021
 
 <div class="video-responsive margin-bottom-big">
 <iframe src="https://player.vimeo.com/video/503877025" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Interview with Paul Wiersbinski | 25.01.2021
+### Paul Wiersbinski | 25.01.2021
 
 <div class="video-responsive margin-bottom-big">
 <iframe src="https://player.vimeo.com/video/503851681" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
