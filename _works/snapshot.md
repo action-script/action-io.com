@@ -23,6 +23,12 @@ Nuño de la Serna present snapshot, a series of film interviews that reflect a m
 ---
 
 
+### Thomas Heidtmann | 22.02.2021
+
+<div class="video-responsive margin-bottom-big">
+<iframe src="https://player.vimeo.com/video/513864866" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nayeli Vega | 20.02.2021
 
 <div class="video-responsive margin-bottom-big">
