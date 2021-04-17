@@ -7,6 +7,7 @@ author: "Nuño de la Serna"
 place: Berlin
 categories: [computer-graphics, creative-code]
 thumbnail: ./assets/media/thumbnails/pious_screenshot.jpg
+visible: false
 ---
 
 <div class="video-responsive">

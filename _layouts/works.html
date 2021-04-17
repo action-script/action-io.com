@@ -4,6 +4,7 @@ layout: default
 {{ content }}
 <div class="gallery-grid">
     {% for post in site.works reversed %}
+    {% if post.visible != false  %}
     {%- assign post_url = post.redirect | default: post.url -%}
     <a class="grid-element filter {{post.categories | join: " "}}" href="{{ post_url | relative_url }}" style="background-image: url({{page.base_url}}{{post.thumbnail}})">
         {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
@@ -12,5 +13,6 @@ layout: default
             <span class="post-meta">{{ post.date | date: date_format }}</span>
         </div>
     </a>
+    {% endif %}
     {%- endfor -%}
 </div>
