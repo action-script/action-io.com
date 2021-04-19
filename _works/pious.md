@@ -7,7 +7,7 @@ author: "Nuño de la Serna"
 place: Berlin
 categories: [computer-graphics, creative-code]
 thumbnail: ./assets/media/thumbnails/pious_screenshot.jpg
-visible: false
+visible: true
 ---
 
 <div class="video-responsive">
@@ -16,7 +16,9 @@ visible: false
 
 ----
 
-Exploratory web experience. A dream world where chaos shapes the space under your feet.
+Exploratory web experience.
+
+Trapped on a dream world, trying to find sense, unable to see far beyond and destroying everything I came contact with.
 
 [[Meshroom](https://github.com/alicevision/meshroom), [cables.gl](https://cables.gl/home)]
 
