@@ -18,7 +18,7 @@ visible: true
 
 Exploratory web experience.
 
-Trapped on a dream world, trying to find sense, unable to see far beyond and destroying everything I came contact with.
+Trapped in a dream world, trying to find sense, unable to see far beyond, and destroying everything I come into contact with.
 
 [[Meshroom](https://github.com/alicevision/meshroom), [cables.gl](https://cables.gl/home)]
 
