@@ -7,7 +7,7 @@ layout: clear
 
 
 
-[pious | Exploratory web experience](https://action-io.com/works/pious){:class="weblink"}
+[pious - Exploratory web experience](https://action-io.com/works/pious){:class="weblink"}
 
 [snapshot @ Transmediale Vorspiel 2021](https://action-io.com/works/snapshot){:class="weblink"}
 
