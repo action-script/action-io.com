@@ -18,6 +18,14 @@ $ gem install bundle
 $ bundle exec jekyll serve
 ```
 
+
+##### Docker
+
+```bash
+$ make build
+$ make serve
+`
+
 ------
 
 #### License
